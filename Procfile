@@ -1,1 +1,1 @@
-web: bundle exec ruby fotune_teller.rb
+web: bundle exec ruby fotrune_teller.rb
