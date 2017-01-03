@@ -1,6 +1,4 @@
-require 'slack-ruby-bot'
 require 'yaml'
-require 'dotenv'
 require 'sample_trello'
 
 module FortuneTeller

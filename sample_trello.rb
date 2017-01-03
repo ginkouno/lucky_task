@@ -1,9 +1,8 @@
-require 'dotenv'
 require 'trello'
+require 'yaml'
 
 class SampleTrello
   def initialize
-    Dotenv.load
     Trello.configure do |config|
       config.consumer_key    = ENV['TRELLO_KEY']
       config.consumer_secret = ENV['TRELLO_SECRET']
