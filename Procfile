@@ -1,1 +1,1 @@
-web: bundle exec ruby puma -p $PORT
+web: bundle exec puma -p $PORT
